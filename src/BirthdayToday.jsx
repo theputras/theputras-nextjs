@@ -56,7 +56,7 @@ const BirthdayToday = () => {
         const baseUrl = import.meta.env.VITE_API_URL; 
         const fullUrl = `${baseUrl}/api/public/ultah`;
         
-        console.log("Fetching from:", fullUrl); // Debugging
+        // console.log("Fetching from:", fullUrl); // Debugging
 
         const response = await fetch(fullUrl);
         const data = await response.json();
